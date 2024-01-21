@@ -1,4 +1,4 @@
-#include <stdlab.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
 {
 	if (argc >= 1)
 	{
-		printf("%s", argv[0]);
+		printf("%s\n", argv[0]);
 		exit (EXIT_SUCCESS);
 	}
 	exit (EXIT_FAILURE);
