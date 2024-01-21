@@ -8,15 +8,15 @@
  *
  * @argv: argument vector, arguments in the cmd line
  *
- * Return - Success
+ * Return: Success
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc >= 1)
 	{
 		printf("%s\n", argv[0]);
-		exit (EXIT_SUCCESS);
+		exit(EXIT_SUCCESS);
 	}
-	exit (EXIT_FAILURE);
+	exit(EXIT_FAILURE);
 }
